@@ -1,5 +1,6 @@
 TEMPLATE = subdirs
 SUBDIRS += shared \
-    browserwindow \
     flickrview \
     youtubeview
+
+!mac:SUBDIRS += browserwindow
